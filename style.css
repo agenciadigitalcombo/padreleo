@@ -1,0 +1,54 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+iframe#iframe-central {
+  border-radius: 30px;
+}
+
+.panel-body {
+  background-color: #072233;
+  color: #ffffff;
+}
+
+.panel-footer {
+  background-color: #0a161d;
+  color: #ffffff;
+}
+
+#btn-doacoes-lg {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #5cb85c;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 500px;
+  font-size: 19pt;
+}
+#btn-doacoes {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #5cb85c;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 19pt;
+}
+#general-text {
+  color: #0a27bd;
+}
+#p-general {
+  font-weight: 500;
+}
+
+#text-big {
+  color: #0a27aa;
+  font-size: 30pt;
+  font-weight: 700;
+}
+#general-text-modal {
+  color: #45b0be;
+  text-align: center;
+}
