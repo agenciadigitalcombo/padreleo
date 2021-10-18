@@ -5,8 +5,29 @@
 
 iframe#iframe-central {
   border-radius: 30px;
-}
 
+  padding: 10px;
+}
+#rodape-one {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+#rodape {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #072233;
+}
+#contain {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
 .panel-body {
   background-color: #072233;
   color: #ffffff;
@@ -26,6 +47,9 @@ iframe#iframe-central {
   text-transform: uppercase;
   width: 500px;
   font-size: 19pt;
+
+  display: flex;
+  justify-content: center;
 }
 #btn-doacoes {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -35,9 +59,15 @@ iframe#iframe-central {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 19pt;
+
+  display: flex;
+  justify-content: center;
 }
 #general-text {
   color: #0a27bd;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 #p-general {
   font-weight: 500;
@@ -45,10 +75,31 @@ iframe#iframe-central {
 
 #text-big {
   color: #0a27aa;
-  font-size: 30pt;
+  font-size: 20pt;
   font-weight: 700;
+  text-align: center;
 }
 #general-text-modal {
   color: #45b0be;
   text-align: center;
+}
+
+@media (min-width: 392px) {
+  #foto {
+    width: 100%;
+  }
+}
+
+.panel {
+  width: 100%;
+}
+#nasa {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5cb85c;
+}
+#nasas {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b8725c;
 }
