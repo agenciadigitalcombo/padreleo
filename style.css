@@ -1,25 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Overlock);
 * {
   padding: 0%;
   margin: 0%;
 }
-
+.masthead {
+  background-image: url("img/campanha-padre-leo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: crimson;
+}
+.banner-topo {
+  max-width: 300%;
+  background-color: red;
+  height: 500%;
+  background-image: url("img/campanha-padre-leo.png");
+  background-size: cover;
+}
 iframe#iframe-central {
   border-radius: 30px;
-
-  padding: 10px;
+  width: 844px;
+  height: 430px;
+  padding: 5px;
 }
+iframe#iframe-centrals {
+  border-radius: 30px;
+}
+#video {
+  width: 560px;
+  height: 315px;
+}
+#video1 {
+  width: 560px;
+  height: 315px;
+}
+#feito {
+}
+.rodape-two {
+  max-width: 300;
+  background-color: #ffffff;
+  padding: 5px;
+  color: #110e0e;
+}
+
 #rodape-one {
   width: 100%;
   padding: 20px;
   display: flex;
   justify-content: center;
+  color: white;
   justify-content: space-between;
 }
 #rodape {
   width: 100%;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
   background-color: #072233;
 }
 #contain {
@@ -52,31 +84,57 @@ iframe#iframe-central {
   justify-content: center;
 }
 #btn-doacoes {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 20px;
-  background-color: #5cb85c;
+  display: inline;
+  font-size: 2rem;
   border: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 19pt;
-
-  display: flex;
-  justify-content: center;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: #23a455;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 150ms linear 0s;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
 }
+
 #general-text {
-  color: #0a27bd;
   text-align: center;
   display: flex;
   justify-content: center;
+  color: #0a27aa;
+  font-family: "Overlock", Sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.1em;
 }
 #p-general {
-  font-weight: 500;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #000000;
+  font-family: "Arial", Sans-serif;
+  font-size: 19px;
+  line-height: 1.1em;
+  font-weight: 200;
 }
 
 #text-big {
   color: #0a27aa;
-  font-size: 20pt;
+  font-family: "Arial", Sans-serif;
+  font-size: 29px;
   font-weight: 700;
+
+  text-align: center;
+}
+#text-big-2 {
+  color: #0a27aa;
+  font-family: "Arial", Sans-serif;
+  font-size: 39px;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-shadow: 0px 0px 1px rgb(0 0 0 / 30%);
   text-align: center;
 }
 #general-text-modal {
@@ -87,6 +145,9 @@ iframe#iframe-central {
 @media (min-width: 392px) {
   #foto {
     width: 100%;
+  }
+
+  #carouselExampleSlidesOnly {
   }
 }
 
