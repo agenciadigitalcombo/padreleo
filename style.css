@@ -3,12 +3,7 @@
   padding: 0%;
   margin: 0%;
 }
-.masthead {
-  background-image: url("img/campanha-padre-leo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: crimson;
-}
+
 .banner-topo {
   max-width: 300%;
   background-color: red;
@@ -142,18 +137,10 @@ iframe#iframe-centrals {
   text-align: center;
 }
 
-@media (min-width: 392px) {
-  #foto {
-    width: 100%;
-  }
-
-  #carouselExampleSlidesOnly {
-  }
-}
-
 .panel {
   width: 100%;
 }
+
 #nasa {
   display: flex;
   justify-content: space-between;
