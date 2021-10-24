@@ -8,7 +8,7 @@
   max-width: 300%;
   background-color: red;
   height: 500%;
-  background-image: url("img/padreleo.doacoesbethania.com.br/campanha-padre-leo.png");
+  background-image: url("../img/padreleo.doacoesbethania.com.br/campanha-padre-leo.png");
   background-size: cover;
 }
 iframe#iframe-central {
@@ -230,7 +230,7 @@ h3 {
 
 .button:hover {
   opacity: 0.9;
-  color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 p {
@@ -578,7 +578,7 @@ p {
 }
 .topos {
   height: 80vh;
-  background: url("img/padreleo.doacoesbethania.com.br/campanha-padre-leo.png");
+  background: url("../img/padreleo.doacoesbethania.com.br/campanha-padre-leo.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -612,7 +612,7 @@ FIM
   }
   .topos {
     height: 50vh;
-    background: url("img/padreleo.doacoesbethania.com.br/campanha-menor.png");
+    background: url("../img/padreleo.doacoesbethania.com.br/campanha-menor.png");
     background-repeat: no-repeat;
     background-size: contain;
   }
