@@ -1,0 +1,823 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+}
+.topos {  width: 100%;
+  height: 75vh;
+  background: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 20px;
+}
+
+.plsfe-switcher ul li {
+  display: inline;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.plsfe-switcher ul li span {
+  color: #ffffff;
+  font-size: 11pt;
+}
+.plsfe-switcher ul li a {
+  text-decoration: none;
+}
+
+#top-menu {
+  width: 100%;
+  height: 1%;
+  padding: 4px;
+  background-color: rgb(255, 255, 255);
+}
+
+#menu{
+
+  background-color: #1A1819;
+}
+
+#logo{
+  width: 9%;
+  max-width: 21%;
+}
+
+
+
+
+
+
+iframe#iframe-central {
+  border-radius: 30px;
+  width: 844px;
+  height: 430px;
+  padding: 5px;
+}
+iframe#iframe-centrals {
+  border-radius: 30px;
+}
+#video {
+  width: 560px;
+  height: 315px;
+}
+#video1 {
+  width: 560px;
+  height: 315px;
+}
+#feito {font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  
+  color: #333;
+  background-color: rgba(138,138,138,.73);
+  -webkit-font-smoothing: antialiased;
+  margin-top: 120px;
+}
+.rodape-two {
+  max-width: 300;
+  background-color: #ffffff;
+  padding: 5px;
+  color: #110e0e;
+}
+
+#rodape-one {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  justify-content: space-between;
+}
+#rodape {
+  width: 100%;
+  background-color: #1969B5;
+}
+#contain {
+  width: 100%;
+  padding: 500px;
+  display: flex;
+  justify-content: center;
+}
+.panel-body {
+  background-color: #072233;
+  color: #ffffff;
+}
+
+.panel-footer {
+  background-color: #0a161d;
+  color: #ffffff;
+}
+
+#btn-doacoes-lg {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #5cb85c;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 500px;
+  font-size: 19pt;
+
+  display: flex;
+  justify-content: center;
+}
+#btn-go-website {
+  display: inline;
+  font-size: 15pt;
+  border: none;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: #dc0011;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+}
+
+#btn-doacoes {
+  display: inline;
+  width: 50%;
+  border: none;
+  padding: 20px;
+
+  font-family: "Jost", Sans-serif;
+  font-size: 1z5px;
+  font-weight: 600;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #d90707;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+#general-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Georgia", Sans-serif;
+  padding: 40px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 1.4em;
+  text-shadow: 0 0 5px rgb(0 0 0 / 30%);
+  line-height: 1.1em;
+}
+#p-general {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #000000;
+  font-family: "Arial", Sans-serif;
+  font-size: 19px;
+  line-height: 1.1em;
+  font-weight: 200;
+}
+
+#shape {
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-color: #1969b5;
+}
+
+#text-big {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #1969b5;
+  font-family: "Arial", Sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+}
+#text-big-2 {
+  color: #1969b5;
+  font-family: "Arial", Sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  text-align: center;
+}
+#text-big-3 {
+  color: #1969b5;
+  font-family: "Arial", Sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  line-height: 1.5em;
+  text-align: center;
+}
+#text-big-4 {
+  color: #ffffff;
+  font-family: "Arial", Sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#p-text-big-4 {
+  color: #ffffff;
+  font-family: "Arial", Sans-serif;
+  font-size: 16px;
+}
+#foto-rounded {
+  border-radius: 30px;
+}
+#general-text-modal {
+  color: #45b0be;
+  text-align: center;
+}
+
+.panel {
+  width: 100%;
+}
+
+#nasa {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5cb85c;
+}
+#nasas {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b8725c;
+}
+
+/*=================================================== 
+01 - CONFIGURAÇÕES GERAIS
+02 - HEADER
+03 - HERO
+04 - AÇÃO
+05 - TITULO
+06 - VIDEOS
+07 - CARTA
+08 - PALAVRA
+09 - AÇÃO 02
+10 - RODAPE
+11 - RESPONSIVO
+======================================================
+
+0 - IMPORTAÇÕES  ===========================*/
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+/*=================================================== 
+01 - CONFIGURAÇÕES GERAIS
+======================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  /* a cada 1rem será considera 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h2 {
+  color: #25b3c2;
+  font-size: 2.5rem;
+  line-height: 4.6rem;
+}
+
+h3 {
+  line-height: 3.8rem;
+  color: #1969b5;
+  font-family: arial, Sans-serif;
+
+  font-weight: 900;
+}
+
+.icone {
+  width: 32px;
+  filter: invert(100);
+  padding-left: 11px;
+}
+
+.button {
+  display: inline;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: #23A455;
+  padding: 20px 18%;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 150ms linear 0s;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+}
+.button-go-on {
+  display: inline;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: #23A455;
+  padding: 14px 18%;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 150ms linear 0s;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+}
+.button:hover {
+  opacity: 0.9;
+}
+
+p {
+  font-family: Arial, Sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.espaco {
+  padding: 20px 0;
+}
+
+/*=================================================== 
+02 - HEADER
+======================================================*/
+.topo {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #25b3c2;
+}
+
+.imagem-logo {
+  width: 35%;
+}
+
+/*=================================================== 
+03 - HERO
+======================================================*/
+.container-hero {
+  padding: 0 10% 40px 10%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-hero {
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+.c-hero h2 {
+  padding: 10px 30px;
+  font-size: 2.7rem;
+  line-height: normal;
+}
+
+.c-hero iframe {
+  border-radius: 20px;
+}
+
+.c-hero img {
+  max-width: 90%;
+}
+
+/*=================================================== 
+04 - ACAO
+======================================================*/
+.container-acao {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.container-1 {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-acao-txt {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0 15px 0;
+  color: #1969b5;
+  font-family: arial, Sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.c-acao-btn {
+  margin-top: 40px;
+  text-align: center;
+}
+.c-acao-btn span {
+  font-family: jost, Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  fill: #fff;
+  color: #fff;
+}
+
+/*=================================================== 
+05 - TITULO
+======================================================*/
+
+.container-h2 {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-h2 {
+  width: 100%;
+}
+
+.c-h2 h2 {
+  text-align: center;
+  padding: 40px 0 15px 0;
+  color: #1969b5;
+  font-family: arial, Sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.container-h3 {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-h3 {
+  width: 100%;
+}
+
+.c-h3 h3 {
+  text-align: center;
+  padding: 40px 0 15px 0;
+  font-size: 3.5rem;
+}
+
+/*=================================================== 
+06 - VIDEOS
+======================================================*/
+.container-videos {
+  padding: 20px 0 0 0;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-videos {
+  width: 100%;
+  padding: 10px;
+}
+
+.c-videos h2 {
+  text-align: center;
+  padding: 40px 0 15px 0;
+  font-size: 3.5rem;
+}
+
+.container-videos .c-videos iframe {
+  border-radius: 20px;
+}
+
+#container {
+  background-color: #567890;
+  width: 90%;
+  margin: 0 auto;
+  border: 4px solid #222;
+  display: flex;
+}
+
+.vidwrapper {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+}
+
+.vidcontainer {
+  width: 100%;
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  border-radius: 20px;
+}
+
+.vidcontainer iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+}
+
+/*=================================================== 
+07 - CARTA
+======================================================*/
+.container-carta {
+  background-color: #115BB7;
+}
+
+.container-carta-txt {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-carta-txt a,
+.c-carta-txt p {
+  align-items: center;
+  color: #fff;
+  font-weight: 200;
+}
+
+.c-carta-txt {
+  width: 100%;
+}
+
+.c-carta-txt h2 {
+  text-align: center;
+  padding: 40px 0 15px 0;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.container-carta-img {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-carta-img {
+  width: 100%;
+}
+
+.imagem-carta {
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+  width: 92%;
+}
+
+.container-carta-img .c-carta-img p {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/*=================================================== 
+08 - PALAVRA
+======================================================*/
+.container-palavra {
+  padding: 20px 0 0 0;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-palavra-img {
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+
+.c-palavra-txt {
+  width: 100%;
+  padding: 10px;
+  color: #1969b5;
+  font-size: 31px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.imagem-palavra {
+  width:90%;margin-left: 20%;
+  border-radius: 20px;
+}
+
+/*=================================================== 
+9 - AÇÃO 2
+======================================================*/
+#btn-go-on-website span {
+  font-size: 29px;
+  font-weight: 700;
+  fill: #fbf8f8;
+  color: #fbf8f8;
+}
+.container-acao2 {
+  padding: 10px 0 0 0;
+  width: 70%;
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.c-acao2-txt p{
+  width: 75%;
+  padding: 10px;
+  color: #000000;
+  font-family: "Arial", Sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.c-acao2-btn {
+  width: 40%;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.c-acao2-btn-div {
+  text-align: center;
+}
+/*=================================================== 
+10 - RODAPE
+======================================================*/
+.imagem-rodape {
+  max-width: 120px;
+  padding: 0 0 20px 0;
+}
+
+.container-rodape {
+  display: flex;
+  text-align: center;
+  background-color: #f0eef0;
+}
+.container-rodape p {
+  color: #1578bc;
+  padding-top: 20px;
+}
+
+.c-rodape {
+  width: 100%;
+}
+
+#meio{
+  
+  display: flex;
+  justify-content: center;
+}
+#video-unico{
+  width: 600px;
+}
+/*=================================================== 
+FIM
+======================================================*/
+/* INICIO */
+/* DO */
+/* RESPONSIVO */
+
+/*================= RESPONSIVO < 600PX  ==================*/
+@media only screen and (max-width: 600px) {
+  .container-hero {
+    padding: 10px 2% 40px 2%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 0 0 100%;
+    margin: auto;
+    align-items: center;
+  }
+
+  #feito{
+    margin-top: 0px;
+  }
+ 
+  .imagem-logo {
+    width: 85%;
+  }
+  #logo {
+    width: 60%;
+  }
+
+  
+.topos {
+  height: 60vh;}
+
+  .vidwrapper {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+  }
+
+  .c-hero h2 {
+    padding: 5px;
+    font-size: 2rem;
+  }
+
+  .container-videos {
+    padding: 10px 0 0 0;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    align-items: center;
+  }
+
+  .c-acao-txt h2 {
+    line-height: normal;
+  }
+
+  .c-h2 h2,
+  .c-h3 h3,
+  .c-carta-txt h2 {
+    font-size: 24px;
+  }
+
+  .container-carta-img {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .c-carta-img {
+    padding: 5px 0;
+  }
+
+  .icone{width: 10px;}
+  .container-palavra {
+    flex-direction: column;
+  }
+
+  .container-acao2 {
+    flex-direction: column-reverse;
+  }
+
+  .c-palavra-txt {
+    width: 85%;
+    font-size: 21px;
+  }
+
+  .c-acao2-txt {
+    width: 100%;
+    padding-bottom: 30px;
+    padding: 30px 0 0 0;
+  }  .c-acao2-txt p {
+    font-size: 20px;
+  }
+  #cont {
+    width: 100%;
+    
+  }
+  .c-acao2-btn {
+    width: 100%;
+    font-size: 10pt;
+  }  .c-palavra-txt{  width: 100%;
+    padding: 10px;
+    color: #1969b5;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;}  
+
+    #text-btn{font-size: 11pt;}
+  #general-text{
+    font-size: 26px;
+  }
+  .imagem-palavra {
+    width: 120%;
+    margin-left: -25px;
+  }
+  h3 {
+    line-height: 3rem;
+  }
+}
