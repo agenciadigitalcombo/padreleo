@@ -230,6 +230,7 @@ h3 {
 
 .button:hover {
   opacity: 0.9;
+  color: rgb(255, 255, 255);
 }
 
 p {
