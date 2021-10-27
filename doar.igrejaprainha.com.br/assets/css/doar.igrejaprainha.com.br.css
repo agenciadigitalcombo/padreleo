@@ -553,6 +553,7 @@ p {
 ======================================================*/
 .container-carta {
   background-color: #E10000;
+  height: 500px;
 }
 
 .container-carta-txt {

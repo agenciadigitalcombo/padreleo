@@ -31,25 +31,19 @@
   background-color: rgb(255, 255, 255);
 }
 
-#menu{
-
-  background-color: #8B0000;
-
+#menu {
+  background-color: #8b0000;
 }
-#menu h1{  color: #FFFFFF;
+#menu h1 {
+  color: #ffffff;
   font-family: "Overlock", Sans-serif;
   font-size: 43px;
   font-weight: 600;
 }
-#logo{
+#logo {
   width: 10%;
   max-width: 21%;
 }
-
-
-
-
-
 
 iframe#iframe-central {
   border-radius: 30px;
@@ -87,7 +81,7 @@ iframe#iframe-centrals {
 }
 #rodape {
   width: 100%;
-  background-color: #0F43E0;
+  background-color: #0f43e0;
 }
 #contain {
   width: 100%;
@@ -151,7 +145,7 @@ iframe#iframe-centrals {
   text-align: center;
   display: flex;
   justify-content: center;
-  color: #0F43E0;
+  color: #0f43e0;
   font-family: "Overlock", Sans-serif;
   font-size: 35px;
   font-weight: 700;
@@ -159,7 +153,6 @@ iframe#iframe-centrals {
   padding: 40px;
 
   text-transform: uppercase;
-
 }
 #p-general {
   display: block;
@@ -312,7 +305,7 @@ h3 {
   font-size: 2rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  background-color: #0F43E0;
+  background-color: #5cb85c;
   padding: 20px 18%;
   text-decoration: none;
   border-radius: 20px;
@@ -324,7 +317,7 @@ h3 {
   font-size: 2rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  background-color: #0D9B04;
+  background-color: #0d9b04;
   padding: 14px 18%;
   text-decoration: none;
   border-radius: 20px;
@@ -361,36 +354,6 @@ p {
 /*=================================================== 
 03 - HERO
 ======================================================*/
-.container-hero {
-  padding: 0 10% 40px 10%;
-  display: flex;
-  margin: auto;
-  align-items: center;
-}
-
-.c-hero {
-  width: 90%;
-  padding: 10px;
-  text-align: center;
-}
-
-.c-hero h2 {
-  padding: 10px 30px;
-  font-size: 2.7rem;
-  line-height: normal;
-}
-
-.c-hero iframe {
-  border-radius: 20px;
-}
-
-.c-hero img {
-  max-width: 90%;
-}
-
-/*=================================================== 
-04 - ACAO
-======================================================*/
 .container-acao {
   width: 90%;
   max-width: 1100px;
@@ -411,25 +374,18 @@ p {
   width: 100%;
   text-align: center;
   padding: 40px 0 15px 0;
-  color: #0F43E0;
-  font-family: "Overlock", Sans-serif; 
-  font-size: 29px;
-  font-weight: bold;
-}
+  color: #0a27aa;
+  font-family: "Arial", Sans-serif;
 
+  font-size: 2.5rem;
+  line-height: 4.6rem;
+  font-weight: 700;
+}
 
 .c-acao-btn {
   margin-top: 40px;
   text-align: center;
 }
-.c-acao-btn span {
-  font-family: jost, Sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  fill: #fff;
-  color: #fff;
-}
-
 /*=================================================== 
 05 - TITULO
 ======================================================*/
@@ -449,7 +405,7 @@ p {
 .c-h2 h2 {
   text-align: center;
   padding: 40px 0 15px 0;
-  color: #0F43E0;
+  color: #0f43e0;
   font-family: "Overlock", Sans-serif;
   font-size: 39px;
   font-weight: 600;
@@ -476,7 +432,7 @@ p {
   padding: 40px 0 15px 0;
   text-align: center;
   padding: 40px 0 15px 0;
-  color: #0F43E0;
+  color: #0f43e0;
   font-family: "Overlock", Sans-serif;
   font-size: 39px;
   font-weight: 600;
@@ -550,7 +506,7 @@ p {
 07 - CARTA
 ======================================================*/
 .container-carta {
-  background-color: #0F43E0;
+  background-color: #0f43e0;
 }
 
 .container-carta-txt {
@@ -623,12 +579,12 @@ p {
 
 .c-palavra-txt {
   width: 100%;
-  padding: 10px;color: #0F43E0;
+  padding: 10px;
+  color: #0f43e0;
   font-family: "Overlock", Sans-serif;
   font-size: 34px;
   font-weight: 800;
   text-align: center;
-
 
   text-transform: uppercase;
 }
@@ -641,12 +597,7 @@ p {
 /*=================================================== 
 9 - AÇÃO 2
 ======================================================*/
-#btn-go-on-website span {
-  font-size: 29px;
-  font-weight: 700;
-  fill: #fbf8f8;
-  color: #fbf8f8;
-}
+
 .container-acao2 {
   padding: 10px 0 0 0;
   width: 70%;
@@ -656,24 +607,28 @@ p {
   align-items: center;
 }
 
-.c-acao2-txt p{
-  width: 78%;
+.c-acao2-txt p {
+ 
   padding: 10px;
-  color: #0F43E0;
+  color: #242424;
   font-family: "Arial", Sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   font-weight: 100;
 }
 
 .c-acao2-btn {
-  width: 40%;
+  width: 50%;
   padding: 10px;
   vertical-align: top;
 }
-
-.c-acao2-btn-div {
-  text-align: center;
+.c-acao-btn span {
+  font-size: 20px;    color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.c-acao2-btn-div span {
+  font-size: 20px;    color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 /*=================================================== 
 10 - RODAPE
@@ -689,7 +644,7 @@ p {
   background-color: #f0eef0;
 }
 .container-rodape p {
-  color: #0F43E0;
+  color: #0f43e0;
   padding-top: 20px;
 }
 
@@ -714,7 +669,7 @@ FIM
     margin: auto;
     align-items: center;
   }
- 
+
   .imagem-logo {
     width: 85%;
   }
@@ -722,7 +677,7 @@ FIM
     width: 60%;
   }
 
-  #menu h1{
+  #menu h1 {
     font-size: 27px;
   }
   .vidwrapper {
@@ -785,23 +740,38 @@ FIM
     width: 100%;
     padding-bottom: 30px;
     padding: 30px 0 0 0;
-  }  .c-acao2-txt p {
+  }
+  .c-acao2-txt p {
     font-size: 20px;
   }
   #cont {
     width: 100%;
-    
   }
   .c-acao2-btn {
     width: 100%;
     font-size: 10pt;
-  }  .c-palavra-txt{color: #1969B5;
+  }
+
+
+  .icone{
+    width: 20px;
+  }.c-acao-btn span {
+    font-size: 17px;    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+  .c-acao2-btn-div span {
+    font-size: 15px;    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+  .c-palavra-txt {
+    color: #1969b5;
     font-size: 24px;
     font-weight: 500;
-    text-align: center;    line-height: 1.1em;}  
+    text-align: center;
+    line-height: 1.1em;
+  }
 
-    #text-btn{font-size: 11pt;}
-  #general-text{
+  #general-text {
     font-size: 30px;
   }
   .imagem-palavra {

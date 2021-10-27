@@ -410,12 +410,13 @@ p {
   width: 100%;
   text-align: center;
   padding: 40px 0 15px 0;
-  color: #1969b5;
-  font-family: arial, Sans-serif;
-  font-size: 39px;
+  color: #0a27aa;
+  font-family: "Arial", Sans-serif;
+
+  font-size: 2.5rem;
+  line-height: 4.6rem;
   font-weight: 700;
 }
-
 .c-acao-btn {
   margin-top: 40px;
   text-align: center;
@@ -639,6 +640,18 @@ p {
   align-items: center;
 }
 
+.c-h2 h2,
+.c-h3 h3,
+.c-carta-txt h2,
+.c-acao-txt {
+  font-size: 2.9rem;
+  color: #0a27aa;
+  font-family: "Arial", Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5em;
+  text-shadow: 0px 0px 1px rgb(0 0 0 / 30%);
+}
 .c-acao2-txt p{
   width: 78%;
   padding: 10px;
@@ -736,8 +749,15 @@ FIM
 
   .c-h2 h2,
   .c-h3 h3,
-  .c-carta-txt h2 {
-    font-size: 24px;
+  .c-carta-txt h2,
+  .c-acao-txt {
+    font-size: 2.9rem;
+    color: #ffffff;
+    font-family: "Arial", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-shadow: 0px 0px 1px rgb(0 0 0 / 30%);
   }
 
   .container-carta-img {
@@ -760,32 +780,64 @@ FIM
   .container-acao2 {
     flex-direction: column-reverse;
   }
-
   .c-palavra-txt {
-    width: 85%;
-    font-size: 21px;
+    width: 100%;
+
+    font-size: 25pt;
+    padding: 10px;
+    color: #0a27aa;
+    font-family: "Overlock", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
   }
+
 
   .c-acao2-txt {
     width: 100%;
     padding-bottom: 30px;
     padding: 30px 0 0 0;
-  }  .c-acao2-txt p {
-    font-size: 20px;
+
+    font-family: "Arial", Sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #2e2b2b;
+  }
+  .c-acao-txt {
+    width: 100%;
+    padding-bottom: 30px;
+    padding: 30px 0 0 0;
+    color: #0a27aa;
+    font-family: "Overlock", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .c-acao-btn span {
+    font-size: 12pt;
   }
   #cont {
     width: 100%;
     
   }
+
+  .c-acao-btn span {
+    font-size: 12pt;
+  }
+  .c-acao2-btn-div span {
+    font-size: 12pt;
+  } 
+  
+  .c-acao-btn span {
+    font-size: 12pt;
+  }
   .c-acao2-btn {
     width: 100%;
-    font-size: 10pt;
-  }  .c-palavra-txt{  width: 100%;
-    padding: 10px;
-    color: #1969b5;
-    font-size: 22px;
-    font-weight: 600;
-    text-align: center;}  
+  }
+
+  .c-acao-btn {
+    width: 100%;
+  }
+  
 
     #text-btn{font-size: 11pt;}
   #general-text{

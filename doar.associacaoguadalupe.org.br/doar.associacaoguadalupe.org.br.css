@@ -603,26 +603,23 @@ p {
 /*=================================================== 
 9 - AÇÃO 2
 ======================================================*/
-#btn-go-on-website span {
-  font-size: 29px;
-  font-weight: 700;
-  fill: #fbf8f8;
-  color: #fbf8f8;
-}
 .container-acao2 {
   padding: 10px 0 0 0;
-  width: 40%;
+  width: 70%;
   max-width: 1200px;
   display: flex;
   margin: auto;
   align-items: center;
 }
 
-.c-acao2-txt {
-  width: 50%;
+.c-acao2-txt p {
+ 
   padding: 10px;
-  font-size: 26px;
+  color: #242424;
+  font-family: "Arial", Sans-serif;
+  font-size: 17px;
   text-align: center;
+  font-weight: 100;
 }
 
 .c-acao2-btn {
@@ -630,9 +627,13 @@ p {
   padding: 10px;
   vertical-align: top;
 }
-
-.c-acao2-btn-div {
-  text-align: center;
+.c-acao-btn span {
+  font-size: 20px;    color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.c-acao2-btn-div span {
+  font-size: 20px;    color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 /*=================================================== 
 10 - RODAPE
@@ -734,23 +735,40 @@ FIM
   .container-acao2 {
     flex-direction: column-reverse;
   }
-
-  .c-palavra-txt {
-    width: 85%;
-    font-size: 21px;
-  }
-
-  .c-acao2-txt {
-    width: 100%;
-    padding-bottom: 30px;
-    padding: 30px 0 0 0;
-  }
-
   .c-acao2-btn {
     width: 100%;
     font-size: 10pt;
   }
 
+  #general-text {
+font-size: 20pt;
+  }
+  .icone{
+    width: 20px;
+  }.c-acao-btn span {
+    font-size: 17px;    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+  .c-acao2-btn-div span {
+    font-size: 15px;    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+  .c-palavra-txt {
+    color: #1969b5;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.1em;
+  }
+  .c-acao-txt {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0 15px 0;
+    color: #1969b5;
+    font-family: arial, Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
   .imagem-palavra {
     width: 100%;
   }

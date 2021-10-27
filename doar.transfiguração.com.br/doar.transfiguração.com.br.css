@@ -391,7 +391,7 @@ p {
 04 - ACAO
 ======================================================*/
 .container-acao {
-  width: 90%;
+  width: 100%;
   max-width: 1100px;
   display: flex;
   margin: auto;
